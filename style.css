@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-component{
+    background-color:#F55A5A;
+    min-height: 55px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.globe-Header{
+    min-height: 35px;
+    max-height: 50px;
+    margin-right: 27px;
+}
