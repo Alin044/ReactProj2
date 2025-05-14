@@ -1,9 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    padding-top: 100px;
 }
 
 .header-component{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color:#F55A5A;
     min-height: 55px;
     max-height: 100px;
@@ -20,4 +26,75 @@ body{
     min-height: 35px;
     max-height: 50px;
     margin-right: 27px;
+}
+
+.countryInfoArticle{
+    display: flex;
+    flex-direction: row;
+}
+
+.country-image{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    width: 70%;
+}
+
+.country-info{
+    display:flex;
+    flex-direction: column;
+    margin-left: 28px;
+    width: 50%;
+    justify-content: center;
+}
+
+.country-info-header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.country-info-header img{
+    height: 20px;
+}
+
+.country-info-header h2{
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-right: 13px;
+}
+
+.country-info-header h3{
+    font-size: 17px;
+    font-weight: 300;
+    color: gray;
+    text-decoration: underline;
+
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article h1{
+    font-size: 37px;
+    margin: 0;
+}
+
+.dates-article{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
